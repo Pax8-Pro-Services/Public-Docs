@@ -1,4 +1,4 @@
-## Welcome to the Pax8 Pro Services File Share Discovery Tool
+![Image](https://www.pax8.com/en-us/wp-content/uploads/sites/4/cache/2020/04/pax8-logo-2-color-dark-200x200-cropped.png) ## Welcome to the Pax8 Pro Services File Share Discovery Tool
 
 This is a GitHub Repository managed by the Pax8 Professional Services Team. If you're on this page, you probably found us by mistake.
 Your Pro Servies engineer should send you a direct link to the document they need you to refer to.
@@ -33,7 +33,7 @@ Changes made during script run:
 **Best if run on file server, can be run on any Windows based PC that can connect to file share content via mapped drive or UNC path
 MUST RUN SCRIPT AS ADMINISTRATOR!
 
-![Image](https://www.pax8.com/en-us/wp-content/uploads/sites/4/cache/2020/04/pax8-logo-2-color-dark-200x200-cropped.png)
+
 
 
 

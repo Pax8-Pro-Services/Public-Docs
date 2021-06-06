@@ -23,7 +23,7 @@ REQUIREMENTS
   - Must run as administrator (Right Click > 'Run As Administrator')
   - .Net Framework v4.0.30319
   - PowerShell 5
-  - **If you encounter errors running the GUI app, try Offline or Legacy to gather the required data**
+  - **If you encounter errors running the Advanced app, try Offline or Legacy to gather the required data**
 
 INSTRUCTIONS
 1) Save .EXE file locally**

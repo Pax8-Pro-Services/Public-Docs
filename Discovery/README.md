@@ -14,22 +14,38 @@ DESCRIPTION
   - Find ALL unique folder paths
   - Gather NTFS Security Permissions
 
+VERSIONS:
+  - Advanced -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
+  - Offline -- Text based console app that does not need to download any modules or updates from the web.
+  - Legacy -- CMD batch files for OLDER Windows based file servers
+
 REQUIREMENTS
   - Must run as administrator (Right Click > 'Run As Administrator')
   - .Net Framework v4.0.30319
+  - PowerShell 5
+  - **If you encounter errors running the GUI app, try Offline or Legacy to gather the required data**
 
 INSTRUCTIONS
 1) Save .EXE file locally**
 2) Right Click > 'Run As Administrator'
 3) Zip the output files and send to your Pax8 contact
     
-Changes made during script run:
+Changes made during script run -- Advanced app:
   - Creates folder 'C:\TempPax8'
   - Allow connections to HTTPS
   - Sets MS PowerShell Gallery as trusted repository
   - Collects ExecutionPolicy, sets ExecutionPolicy to ByPass and sets back to original at the end of script
   - Installs NuGet Package Manager at the Current User scope
   - Instals PS Module 'ImportExcel' at Current User Scope to allow exporting discovery to single XLSX file
+
+Changes made during script run -- Offline app:
+  - Creates folder 'C:\TempPax8'
+  - Collects ExecutionPolicy, sets ExecutionPolicy to ByPass and sets back to original at the end of script
+  - Exports CSV files to the 'TempPax8' directory
+
+Changes made during script run -- GUI app:
+  - Creates folder 'C:\TempPax8'
+  - Exports TXT files to the 'TempPax8' directory
 
 **Best if run on file server, can be run on any Windows based PC that can connect to file share content via mapped drive or UNC path
 MUST RUN SCRIPT AS ADMINISTRATOR!

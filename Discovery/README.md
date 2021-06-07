@@ -26,9 +26,9 @@ REQUIREMENTS
   - **If you encounter errors running the Advanced app, try Offline or Legacy to gather the required data**
 
 INSTRUCTIONS
-1) Save .EXE file locally**
-2) Right Click > 'Run As Administrator'
-3) Zip the output files and send to your Pax8 contact
+1. Save .EXE file locally**
+1. Right Click > 'Run As Administrator'
+1. Zip the output files and send to your Pax8 contact
     
 Changes made during script run -- Advanced app:
   - Creates folder 'C:\TempPax8'

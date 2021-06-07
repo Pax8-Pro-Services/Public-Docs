@@ -15,9 +15,9 @@ DESCRIPTION
   - Gather NTFS Security Permissions
 
 VERSIONS:
-  - Advanced -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
-  - Offline -- Text based console app that does not need to download any modules or updates from the web.
-  - Legacy -- CMD batch files for OLDER Windows based file servers
+  - [Advanced](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.exe) -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
+  - [Offline](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Legacy.exe) -- Text based console app that does not need to download any modules or updates from the web.
+  - [Legacy](https://github.com/Pax8-Pro-Services/Public-Docs/tree/master/Discovery/Legacy) -- CMD batch files for OLDER Windows based file servers
 
 REQUIREMENTS
   - Must run as administrator (Right Click > 'Run As Administrator')
@@ -26,7 +26,7 @@ REQUIREMENTS
   - **If you encounter errors running the Advanced app, try Offline or Legacy to gather the required data**
 
 INSTRUCTIONS
-1. Save .EXE file locally**
+1. Save .EXE file locally
 1. Right Click > 'Run As Administrator'
 1. Zip the output files and send to your Pax8 contact
     

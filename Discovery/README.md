@@ -15,8 +15,8 @@ DESCRIPTION
   - Gather NTFS Security Permissions
 
 VERSIONS:
-  - [Advanced - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.exe) | [Advanced - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.ps1) -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
-  - [Offline - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.exe) | [Offline - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.ps1) -- Text based console app that does not need to download any modules or updates from the web.
+  - [Advanced - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.exe) // [Advanced - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.ps1) -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
+  - [Offline - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.exe) // [Offline - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.ps1) -- Text based console app that does not need to download any modules or updates from the web.
   - [Legacy](https://github.com/Pax8-Pro-Services/Public-Docs/tree/master/Discovery/Legacy) -- CMD batch files for OLDER Windows based file servers
 
 REQUIREMENTS

@@ -36,6 +36,6 @@ Setlocal EnableDelayedExpansion
 For /F "Tokens=*" %%a in ('dir %ShareData% /b /s /a') do (
  set name=%%a
 :: if not "!name:~255,1!"=="" echo Extra long name: "%%a"
- if not "!name:~255,1!"==" echo >> C:\TempPax8\get_AllFolders.txt
+if not "!name:~255,1!"==""  ( echo >> C:\TempPax8\get_LongFilePaths.txt )
 )
 Endlocal

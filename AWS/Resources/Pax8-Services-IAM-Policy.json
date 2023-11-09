@@ -5,20 +5,20 @@
 			"Sid": "AllowDeploymentofResources",
 			"Effect": "Allow",
 			"Action": [
-				"ec2:",
-				"sns:",
-				"backup:",
-				"cloudformation:"
+				"ec2:*",
+				"sns:*",
+				"backup:*",
+				"cloudformation:*"
 			],
 			"Resource": [
-				""
+				"*"
 			]
 		},
 		{
 			"Sid": "AllowCreationofBackupRole",
 			"Effect": "Allow",
 			"Action": [
-				"iam:"
+				"iam:*"
 			],
 			"Resource": [
 				"arn:aws:iam:::role/BackupPlanRole"
@@ -27,7 +27,7 @@
 		{
             "Sid": "LimitEC2",
             "Effect": "Deny",
-            "Action": "ec2:",
+            "Action": "ec2:*",
             "Resource": "arn:aws:ec2:::instance/*",
             "Condition": {
                 "ForAnyValue:StringNotLike": {

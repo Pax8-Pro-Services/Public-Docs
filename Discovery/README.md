@@ -15,8 +15,8 @@ DESCRIPTION
   - Gather NTFS Security Permissions
 
 VERSIONS:
-  - [Advanced - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.exe) // [Advanced - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.ps1) -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
-  - [Offline - exe](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.exe) // [Offline - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.ps1) -- Text based console app that does not need to download any modules or updates from the web.
+  - [Advanced - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Advanced/Pax8-FileShareDiscovery.ps1) -- Compiled PowerShell with PS Forms for an intuitive and informative UI.
+  - [Offline - ps1](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/FileShareDiscovery-Offline.ps1) -- Text based console app that does not need to download any modules or updates from the web.
   - [Legacy](https://github.com/Pax8-Pro-Services/Public-Docs/tree/master/Discovery/Legacy) -- CMD batch files for OLDER Windows based file servers
 
 REQUIREMENTS
@@ -26,7 +26,7 @@ REQUIREMENTS
   - **If you encounter errors running the Advanced app, try [Offline](https://github.com/Pax8-Pro-Services/Public-Docs/blob/master/Discovery/Offline/) or [Legacy](https://github.com/Pax8-Pro-Services/Public-Docs/tree/master/Discovery/Legacy) to gather the required data**
 
 INSTRUCTIONS
-1. Save .EXE file locally
+1. Save .PS1 file locally
 1. Right Click > 'Run As Administrator'
 1. Zip the output files and send to your Pax8 contact
     
